@@ -13,8 +13,14 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        loginwindow.cpp
+        loginwindow.cpp \
+    barnamehaftegi.cpp \
+    resultexam.cpp
 
-HEADERS  += loginwindow.h
+HEADERS  += loginwindow.h \
+    barnamehaftegi.h \
+    resultexam.h
 
-FORMS    += loginwindow.ui
+FORMS    += loginwindow.ui \
+    barnamehaftegi.ui \
+    resultexam.ui

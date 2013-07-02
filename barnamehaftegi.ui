@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BarnameHaftegi</class>
+ <widget class="QMainWindow" name="BarnameHaftegi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>411</width>
+    <height>464</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="4" column="4">
+       <widget class="QLabel" name="a1">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3">
+       <widget class="QLabel" name="a2">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QLabel" name="d4">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="5">
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">background: gray;</string>
+        </property>
+        <property name="text">
+         <string>&lt;center&gt;شنبه&lt;/center&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="2">
+       <widget class="QLabel" name="c3">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="3">
+       <widget class="QLabel" name="c2">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="3">
+       <widget class="QLabel" name="b2">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" rowspan="2" colspan="2">
+       <widget class="QLabel" name="personImage">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>&lt;img src='E://person.png' /&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="5">
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">background: gray;</string>
+        </property>
+        <property name="text">
+         <string>&lt;center&gt;یکشنبه&lt;/center&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLabel" name="a4">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="5">
+       <widget class="QLabel" name="label_4">
+        <property name="styleSheet">
+         <string notr="true">background: gray;</string>
+        </property>
+        <property name="text">
+         <string>&lt;center&gt;دوشنبه&lt;/center&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="4">
+       <widget class="QLabel" name="e1">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="2">
+       <widget class="QLabel" name="e3">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="4">
+       <widget class="QLabel" name="c1">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="5">
+       <widget class="QLabel" name="label_5">
+        <property name="styleSheet">
+         <string notr="true">background: gray;</string>
+        </property>
+        <property name="text">
+         <string>&lt;center&gt;سه شنبه&lt;/center&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2" colspan="2">
+       <widget class="QLabel" name="vahed">
+        <property name="text">
+         <string>&lt;font color = blue&gt;19واحد</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="2">
+       <widget class="QLabel" name="d3">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLabel" name="d5">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="b5">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="4">
+       <widget class="QLabel" name="d1">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="6">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="a5">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="c5">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="3">
+       <widget class="QLabel" name="d2">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QLabel" name="a3">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4" colspan="2">
+       <widget class="QLabel" name="daneshkade">
+        <property name="text">
+         <string>&lt;font color = blue&gt;دانشکده ی کامپیوتر</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="4">
+       <widget class="QLabel" name="b1">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="5">
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">background: gray;</string>
+        </property>
+        <property name="text">
+         <string>&lt;center&gt;چهارشنبه&lt;/center&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="3">
+       <widget class="QLabel" name="e2">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLabel" name="label_10">
+        <property name="styleSheet">
+         <string notr="true">background: gray;</string>
+        </property>
+        <property name="text">
+         <string>&lt;center&gt;15:00تا&lt;br&gt;17:00&lt;/center&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="4">
+       <widget class="QLabel" name="label_7">
+        <property name="styleSheet">
+         <string notr="true">background: gray;</string>
+        </property>
+        <property name="text">
+         <string>&lt;center&gt;8:00تا&lt;br&gt;10:00&lt;/center&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="5">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">background: gray;</string>
+        </property>
+        <property name="text">
+         <string>&lt;center&gt;روز/ساعت&lt;/center&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0">
+       <widget class="QLabel" name="e5">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLabel" name="c4">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QLabel" name="b3">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLabel" name="b4">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <widget class="QLabel" name="e4">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2" colspan="2">
+       <widget class="QLabel" name="magta">
+        <property name="text">
+         <string>&lt;font color = blue&gt;کارشناسی</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_11">
+        <property name="styleSheet">
+         <string notr="true">background: gray;</string>
+        </property>
+        <property name="text">
+         <string>&lt;center&gt;17:00تا&lt;br&gt;19:00&lt;/center&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QLabel" name="label_8">
+        <property name="styleSheet">
+         <string notr="true">background: gray;</string>
+        </property>
+        <property name="text">
+         <string>&lt;center&gt;10:00تا&lt;br&gt;12:00&lt;/center&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QLabel" name="label_9">
+        <property name="styleSheet">
+         <string notr="true">background: gray;</string>
+        </property>
+        <property name="text">
+         <string>&lt;center&gt;13:00تا&lt;br&gt;15:00&lt;/center&gt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4" colspan="2">
+       <widget class="QLabel" name="name">
+        <property name="text">
+         <string>&lt;font color=blue&gt;مهدی بگوند</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::AutoText</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>411</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
