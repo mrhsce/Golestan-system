@@ -15,12 +15,17 @@ TEMPLATE = app
 SOURCES += main.cpp\
         loginwindow.cpp \
     barnamehaftegi.cpp \
-    resultexam.cpp
+    resultexam.cpp \
+    database.cpp \
+    mainwindow.cpp
 
 HEADERS  += loginwindow.h \
     barnamehaftegi.h \
-    resultexam.h
+    resultexam.h \
+    database.h \
+    mainwindow.h
 
 FORMS    += loginwindow.ui \
     barnamehaftegi.ui \
-    resultexam.ui
+    resultexam.ui \
+    mainwindow.ui
