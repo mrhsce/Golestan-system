@@ -5,6 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
+QT       += sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -16,14 +17,14 @@ SOURCES += main.cpp\
         loginwindow.cpp \
     barnamehaftegi.cpp \
     resultexam.cpp \
-    database.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    database.cpp
 
 HEADERS  += loginwindow.h \
     barnamehaftegi.h \
     resultexam.h \
-    database.h \
-    mainwindow.h
+    mainwindow.h \
+    database.h
 
 FORMS    += loginwindow.ui \
     barnamehaftegi.ui \

@@ -3,7 +3,6 @@
 
 #include <QMainWindow>
 
-
 namespace Ui {
 class LoginWindow;
 }
@@ -18,7 +17,7 @@ public:
 
 
 private slots:
-    void on_pushButton_2_clicked();
+    void on_ok_clicked();
 
 private:
     Ui::LoginWindow *ui;

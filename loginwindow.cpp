@@ -1,6 +1,9 @@
 #include "loginwindow.h"
 #include "ui_loginwindow.h"
 #include <QLabel>
+#include <QString>
+#include <mainwindow.h>
+
 LoginWindow::LoginWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::LoginWindow)
@@ -15,8 +18,23 @@ LoginWindow::~LoginWindow()
     delete ui;
 }
 
-void LoginWindow::on_pushButton_2_clicked()
+bool IsTrueUserPass(QString User , QString Pass)
 {
-    //do database work
+    //by database check if is true return true
+    return false;
+}
 
+void LoginWindow::on_ok_clicked()
+{
+    if( IsTrueUserPass (ui->user->text() , ui->pass->text()) )
+    {
+        //we close loginWindow
+        close();
+        //we get studentId from database
+        //for other information Ex:name family
+        //we extract them by Sql and studentId
+        mainWindow e(m_studentId);
+        e.show();
+
+    }
 }

@@ -107,16 +107,23 @@
     </item>
     <item>
      <layout class="QGridLayout" name="gridLayout_2">
-      <item row="1" column="1">
-       <widget class="QLabel" name="vahed_pass">
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_9">
         <property name="styleSheet">
-         <string notr="true">background:rgb(170, 170, 127);</string>
+         <string notr="true">background: gray;</string>
         </property>
         <property name="text">
-         <string>20</string>
+         <string>&lt;center&gt;تعداد واحد قبولی&lt;/center&gt;</string>
         </property>
-        <property name="alignment">
-         <set>Qt::AlignCenter</set>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">background: gray;</string>
+        </property>
+        <property name="text">
+         <string>&lt;center&gt;معدل ترم&lt;/center&gt;</string>
         </property>
        </widget>
       </item>
@@ -127,6 +134,19 @@
         </property>
         <property name="text">
          <string>تعداد واحد اخذشده</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="vahed_pass">
+        <property name="styleSheet">
+         <string notr="true">background:rgb(170, 170, 127);</string>
+        </property>
+        <property name="text">
+         <string>20</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
       </item>
@@ -146,16 +166,6 @@
         </property>
        </widget>
       </item>
-      <item row="0" column="2">
-       <widget class="QLabel" name="label_6">
-        <property name="styleSheet">
-         <string notr="true">background: gray;</string>
-        </property>
-        <property name="text">
-         <string>&lt;center&gt;معدل ترم&lt;/center&gt;</string>
-        </property>
-       </widget>
-      </item>
       <item row="1" column="0">
        <widget class="QLabel" name="vahedTotal">
         <property name="styleSheet">
@@ -169,13 +179,10 @@
         </property>
        </widget>
       </item>
-      <item row="0" column="1">
-       <widget class="QLabel" name="label_9">
-        <property name="styleSheet">
-         <string notr="true">background: gray;</string>
-        </property>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="back">
         <property name="text">
-         <string>&lt;center&gt;تعداد واحد قبولی&lt;/center&gt;</string>
+         <string>بازگشت</string>
         </property>
        </widget>
       </item>
