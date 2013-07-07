@@ -20,7 +20,7 @@
       <item>
        <widget class="QLabel" name="label_12">
         <property name="text">
-         <string>&lt;img src='E://unvarm.jpg' /&gt;</string>
+         <string>&lt;img src='C://unvarm.jpg' /&gt;</string>
         </property>
        </widget>
       </item>

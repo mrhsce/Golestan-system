@@ -17,7 +17,7 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-image: url(E://background.bmp);</string>
+   <string notr="true">background-image: url(C://background.bmp);</string>
   </property>
   <property name="tabShape">
    <enum>QTabWidget::Rounded</enum>
@@ -276,7 +276,7 @@
          <bool>false</bool>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-image: url(E://exIt.png);</string>
+         <string notr="true">background-image: url(C://exIt.png);</string>
         </property>
         <property name="text">
          <string/>
@@ -301,7 +301,7 @@
       <item row="10" column="2">
        <widget class="QPushButton" name="ok">
         <property name="styleSheet">
-         <string notr="true">background-image: url(E://input.png);</string>
+         <string notr="true">background-image: url(C://input.png);</string>
         </property>
         <property name="text">
          <string/>
@@ -392,7 +392,7 @@
          <string notr="true">background-image: url(null);</string>
         </property>
         <property name="text">
-         <string>&lt;img src='E://unvarm.jpg' /&gt;</string>
+         <string>&lt;img src='C://unvarm.jpg' /&gt;</string>
         </property>
        </widget>
       </item>

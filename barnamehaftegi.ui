@@ -217,7 +217,7 @@
          <string notr="true"/>
         </property>
         <property name="text">
-         <string>&lt;img src='E://person.png' /&gt;</string>
+         <string>&lt;img src='C://person.png' /&gt;</string>
         </property>
        </widget>
       </item>

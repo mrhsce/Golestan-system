@@ -2,6 +2,7 @@
 #define LOGINWINDOW_H
 
 #include <QMainWindow>
+#include <database.h>
 
 namespace Ui {
 class LoginWindow;
@@ -14,7 +15,7 @@ class LoginWindow : public QMainWindow
 public:
     explicit LoginWindow(QWidget *parent = 0);
     ~LoginWindow();
-
+    database *sql;
 
 private slots:
     void on_ok_clicked();

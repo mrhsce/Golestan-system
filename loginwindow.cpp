@@ -9,8 +9,7 @@ LoginWindow::LoginWindow(QWidget *parent) :
     ui(new Ui::LoginWindow)
 {
     ui->setupUi(this);
-
-
+    sql = new database("database");
 }
 
 LoginWindow::~LoginWindow()
