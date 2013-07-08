@@ -1,7 +1,7 @@
 -Golestan-system
 -===============
 -
--A client-server implementation of the golestan( university enrolment system ) system
+-A  implementation of the golestan( university enrolment system ) system by qt framework
 -
 -Developers:
 -
@@ -9,7 +9,7 @@
 -
 -2)Mohammad Rezaheidarian 91521104
 -
--Project Title   :   Golestan system implementation in client-server structure
+-Project Title   :   Golestan system implementation by qt framework
 -
 -Project summary:
 -
