@@ -30,3 +30,6 @@ FORMS    += loginwindow.ui \
     barnamehaftegi.ui \
     resultexam.ui \
     mainwindow.ui
+
+RESOURCES += \
+    Resources.qrc

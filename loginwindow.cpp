@@ -1,15 +1,17 @@
 #include "loginwindow.h"
 #include "ui_loginwindow.h"
 #include <QLabel>
-#include <QString>
 #include <mainwindow.h>
+#include <QMessageBox>
 
+#include "database.h"
 LoginWindow::LoginWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::LoginWindow)
 {
     ui->setupUi(this);
-    sql = new database("database");
+
+    db = new database("archive.db");
 }
 
 LoginWindow::~LoginWindow()
@@ -17,11 +19,20 @@ LoginWindow::~LoginWindow()
     delete ui;
 }
 
-bool IsTrueUserPass(QString User , QString Pass)
+bool LoginWindow::IsTrueUserPass(QString User , QString Pass)
 {
-    //by database check if is true return true
-    return false;
+
+    db->query.exec(tr("select studentNo,password from StudentTable where studentNo=%1 and password='%2'").arg(User,Pass));
+    if (db->query.next())
+    {
+        return true;
+
+
+    }
+    else{return false;}
 }
+
+
 
 void LoginWindow::on_ok_clicked()
 {
@@ -32,8 +43,14 @@ void LoginWindow::on_ok_clicked()
         //we get studentId from database
         //for other information Ex:name family
         //we extract them by Sql and studentId
-        mainWindow e(m_studentId);
-        e.show();
+        mainWindow *g;
+        g = new mainWindow(ui->user->text());
 
+        g->show();
+
+    }
+    else
+    {
+        QMessageBox::information(this , "warning","Wrong password");
     }
 }

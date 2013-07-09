@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>background.bmp</file>
+        <file>exit.png</file>
+        <file>input.png</file>
+        <file>person.png</file>
+        <file>unvarm.jpg</file>
+    </qresource>
+</RCC>

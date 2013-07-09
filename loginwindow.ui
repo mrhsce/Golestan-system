@@ -17,7 +17,7 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-image: url(C://background.bmp);</string>
+   <string notr="true">background-image: url(:/images/background.bmp);</string>
   </property>
   <property name="tabShape">
    <enum>QTabWidget::Rounded</enum>
@@ -34,6 +34,9 @@
      <layout class="QGridLayout" name="gridLayout">
       <item row="2" column="1" colspan="4">
        <spacer name="horizontalSpacer_13">
+        <property name="styleSheet">
+         <string/>
+        </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -47,6 +50,9 @@
       </item>
       <item row="4" column="0" colspan="5">
        <spacer name="horizontalSpacer_15">
+        <property name="styleSheet">
+         <string/>
+        </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -60,6 +66,9 @@
       </item>
       <item row="3" column="0" colspan="5">
        <spacer name="horizontalSpacer_14">
+        <property name="styleSheet">
+         <string/>
+        </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -73,6 +82,9 @@
       </item>
       <item row="0" column="1" colspan="4">
        <spacer name="horizontalSpacer_12">
+        <property name="styleSheet">
+         <string/>
+        </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -86,6 +98,9 @@
       </item>
       <item row="1" column="1" colspan="4">
        <spacer name="horizontalSpacer_16">
+        <property name="styleSheet">
+         <string/>
+        </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -159,6 +174,9 @@
       </item>
       <item row="8" column="0">
        <spacer name="horizontalSpacer">
+        <property name="styleSheet">
+         <string/>
+        </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -186,12 +204,15 @@
         <property name="styleSheet">
          <string notr="true">background-image: url(null);</string>
         </property>
+        <property name="text">
+         <string/>
+        </property>
        </widget>
       </item>
       <item row="8" column="3">
        <widget class="QLabel" name="label_4">
         <property name="styleSheet">
-         <string notr="true">background-image: url(nullg);</string>
+         <string notr="true">background-image: url(null);</string>
         </property>
         <property name="text">
          <string>نام کاربری:</string>
@@ -200,6 +221,9 @@
       </item>
       <item row="8" column="4">
        <spacer name="horizontalSpacer_2">
+        <property name="styleSheet">
+         <string/>
+        </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -213,6 +237,9 @@
       </item>
       <item row="9" column="0">
        <spacer name="horizontalSpacer_3">
+        <property name="styleSheet">
+         <string/>
+        </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -228,6 +255,9 @@
        <widget class="QLineEdit" name="pass">
         <property name="styleSheet">
          <string notr="true">background-image: url(null);</string>
+        </property>
+        <property name="text">
+         <string/>
         </property>
         <property name="echoMode">
          <enum>QLineEdit::Password</enum>
@@ -246,6 +276,9 @@
       </item>
       <item row="9" column="4">
        <spacer name="horizontalSpacer_4">
+        <property name="styleSheet">
+         <string/>
+        </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -259,6 +292,9 @@
       </item>
       <item row="10" column="0">
        <spacer name="horizontalSpacer_5">
+        <property name="styleSheet">
+         <string/>
+        </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -276,7 +312,7 @@
          <bool>false</bool>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-image: url(C://exIt.png);</string>
+         <string notr="true">background-image: url(:/images/exit.png);</string>
         </property>
         <property name="text">
          <string/>
@@ -301,7 +337,7 @@
       <item row="10" column="2">
        <widget class="QPushButton" name="ok">
         <property name="styleSheet">
-         <string notr="true">background-image: url(C://input.png);</string>
+         <string notr="true">background-image: url(:/images/input.png);</string>
         </property>
         <property name="text">
          <string/>
@@ -310,6 +346,9 @@
       </item>
       <item row="10" column="3" colspan="2">
        <spacer name="horizontalSpacer_6">
+        <property name="styleSheet">
+         <string/>
+        </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -323,6 +362,9 @@
       </item>
       <item row="11" column="0" colspan="5">
        <spacer name="horizontalSpacer_7">
+        <property name="styleSheet">
+         <string/>
+        </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -336,6 +378,9 @@
       </item>
       <item row="12" column="0" colspan="5">
        <spacer name="horizontalSpacer_8">
+        <property name="styleSheet">
+         <string/>
+        </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -349,6 +394,9 @@
       </item>
       <item row="13" column="0" colspan="5">
        <spacer name="horizontalSpacer_9">
+        <property name="styleSheet">
+         <string/>
+        </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -362,6 +410,9 @@
       </item>
       <item row="14" column="0" colspan="5">
        <spacer name="horizontalSpacer_10">
+        <property name="styleSheet">
+         <string/>
+        </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -375,6 +426,9 @@
       </item>
       <item row="15" column="0" colspan="5">
        <spacer name="horizontalSpacer_11">
+        <property name="styleSheet">
+         <string/>
+        </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -389,10 +443,10 @@
       <item row="0" column="0" rowspan="3">
        <widget class="QLabel" name="label_6">
         <property name="styleSheet">
-         <string notr="true">background-image: url(null);</string>
+         <string notr="true"/>
         </property>
         <property name="text">
-         <string>&lt;img src='C://unvarm.jpg' /&gt;</string>
+         <string>&lt;img src=':/images/unvarm.jpg' /&gt;</string>
         </property>
        </widget>
       </item>
