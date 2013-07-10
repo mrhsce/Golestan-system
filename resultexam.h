@@ -1,10 +1,11 @@
-#ifndef RESULTEXAM_H
-#define RESULTEXAM_H
+#ifndef RESULXAM_H
+#define RESULXAM_H
 
 #include <QMainWindow>
 #include <QLabel>
+#include <QString>
 #include "mainwindow.h"
-
+#include "database.h"
 namespace Ui {
 class resultExam;
 }
@@ -14,10 +15,11 @@ class resultExam : public QMainWindow
     Q_OBJECT
     
 public:
-    explicit resultExam(int studentId ,QWidget *parent = 0);
+    explicit resultExam(QString studentId ,QWidget *parent = 0);
     ~resultExam();
+    database * db;
     QLabel *l1;
-    int m_studentId;
+    QString m_studentId;
     
 private slots:
     void on_back_clicked();
@@ -26,4 +28,4 @@ private:
     Ui::resultExam *ui;
 };
 
-#endif // RESULTEXAM_H
+#endif // RESULXAM_H

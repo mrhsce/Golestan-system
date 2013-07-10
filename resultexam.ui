@@ -20,30 +20,30 @@
       <item>
        <widget class="QLabel" name="label_12">
         <property name="text">
-         <string>&lt;img src='C://unvarm.jpg' /&gt;</string>
+         <string>&lt;img src=':/images/person.png' /&gt;</string>
         </property>
        </widget>
       </item>
       <item>
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
-         <widget class="QLabel" name="label_13">
+         <widget class="QLabel" name="nameLabel">
           <property name="text">
            <string>&lt;font color= blue&gt;مهدی بگوند&lt;/font&gt;</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="label_14">
+         <widget class="QLabel" name="collegeLabel">
           <property name="text">
-           <string>&lt;font color= blue&gt;دانشکده کامپیوتر&lt;/font&gt;</string>
+           <string>&lt;font color= blue&gt;دانشکده &lt;/font&gt;</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="label_15">
+         <widget class="QLabel" name="numberLabel">
           <property name="text">
-           <string>&lt;font color= blue&gt;ش.ش:&lt;/font&gt;</string>
+           <string>&lt;font color= blue&gt;شماره دانشجویی: &lt;/font&gt;</string>
           </property>
          </widget>
         </item>

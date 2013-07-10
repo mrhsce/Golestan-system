@@ -6,6 +6,7 @@
 #include <QSqlQuery>
 #include <QDir>
 #include <QString>
+
 class database
 {
 private:
