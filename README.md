@@ -17,12 +17,12 @@
 -
 -this program is based on the golestan systems and interface is going to be just like golestan
 -
--but in the contrast to the golestan we are going to make this program in client-server structure
 -
--server will be installed on the main pc and the cliens on other systems and they will will communicate through network.
 -
 -another betterment of this application is that great amount of data(student registration data and etc) can be inserted into the program using an xml file.
 -
+-you can see the final result of the project at the final project result folder
+and for running it on your pc use Qt dlls.
 -project git address:
 -
 -HTTP : https://github.com/mrhsce/Golestan-system.git
